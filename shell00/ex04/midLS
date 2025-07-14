@@ -1,0 +1,1 @@
+ls -atp | sed 's/$/, /' | tr -d '\n'
